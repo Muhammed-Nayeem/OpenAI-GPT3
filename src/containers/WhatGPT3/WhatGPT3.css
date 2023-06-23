@@ -98,6 +98,9 @@
   .container {
     max-width: 98%;
   }
+  .gpt3__wgpt3-content {
+    padding: 4rem 2rem;
+  }
   .gpt3__wgpt3-heading h1 {
     font-size: 32px;
     max-width: 450px;
