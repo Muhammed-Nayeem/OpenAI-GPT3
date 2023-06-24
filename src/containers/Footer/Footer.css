@@ -1,0 +1,114 @@
+.gpt3__footer {
+  padding: 2rem 0;
+  background-color: var(--color-footer);
+}
+.gpt3__footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.gpt3__footer-content_text {
+  text-align: center;
+  margin: 5rem 0;
+}
+.gpt3__footer-content_text h1 {
+  font-family: var(--font-family);
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 70px;
+  margin-bottom: 1.5rem;
+}
+.gpt3__footer-content_text button {
+  background: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  padding: .6rem 2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+}
+.gpt3__footer-links_container {
+  margin: 2rem 0 4rem 0;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.gpt3__footer-link {
+  flex: 1;
+}
+.gpt3__footer-link img {
+  width: 90px;
+}
+.gpt3__footer-link p {
+  color: #c1c1c1;
+  margin-top: 1rem;
+}
+.gpt3__footer-link h3 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.gpt3__footer-link ul {
+  list-style: none;
+}
+.gpt3__footer-link ul li {
+  margin-bottom: .5rem;
+}
+.gpt3__footer-link ul li a {
+  text-decoration: none;
+  color: #c1c1c1;
+  display: inline-block;
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+.gpt3__footer-copyright_text {
+  text-align: center;
+}
+.gpt3__footer-copyright_text p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+}
+
+/* Responsive Code */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 760px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 98%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .container {
+    max-width: 85%;
+  }
+  .gpt3__footer-content_text h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .gpt3__footer-link {
+    margin-bottom: 2rem;
+  }
+}
